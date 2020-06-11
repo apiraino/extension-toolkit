@@ -3,5 +3,21 @@
   "version": "1.0.0",
   "icon": "person",
   "types": ["string"],
-  "options": {}
+  "options": {
+    "custom-field": {
+      "name": "$t:field_name",
+      "default": "$t:field_default_value",
+    }
+  },
+  // translations are optional
+  "translation": {
+    "en-US": {
+      "field_name": "This is an additional field",
+      "field_default_value": "This is the additional field value"
+    },
+    "de-DE": {
+      "field_name": "Das ist ein zusätzliches Feld",
+      "field_default_value": "Das ist das zusätzliches Feldwert"
+    }
+  }
 }
